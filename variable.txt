@@ -1,0 +1,82 @@
+**Variable**
+--------------
+    -something which varise/changes
+    -act like a container
+    example:
+    --------
+       x = 5;  <- 5 asign to x/ 5 stored in x 
+type of Variables in languages:
+------------------
+    there are two type of veriable
+        1-weekly typed/Dynamically typed -> use Python/Js
+        2- strongly typed/ statically typed -> use Java/C/c++
+
+
+**Variable In Java**
+---------------------
+    variabl:
+    -------
+        -cantainer of the data
+        -type of the data
+
+    Naming of Variables:
+    --------------------
+        rules:
+        ------
+            1-name: [a-z / A-Z /0-9 / $ / _]
+            2-1st char of name: [a-z / A-Z / $ / _]
+            3-can't use reserved keywords 
+            4-case senstive - true
+            5-No space b/w variable name
+
+Datatypes:
+-----------
+    1- Primitive Datatype
+    2- Non-Primitive Datatype
+
+    Premitive Datatype:
+    -------------------
+        1- Numericals 
+            1- Integers
+            2- Decimal
+
+            Integers:
+            ----------
+              - byte    --------> 1 Bytes
+              - short   --------> 2 Bytes
+              - int     --------> 4 Bytes
+              - long    --------> 8 Bytes ------> Representing Suffix with 'L' [example: long longNum = 99999999999l]
+
+              Memory Flow: bytes -> short -> int -> long 
+
+            Decimal: (important for interview)
+            ---------
+                - float --------> Representing Suffix with 'f' [example: long longNum = 123.4f]
+                        - float ka precision 'SINGLE DIGIT' hota hai
+                        - can store upto '7 degits' of decimal Represent
+                - double
+                        - float ka precision 'DOUBLE DIGIT' hota hai
+                        - can store upto '15-16 degits' of decimal Represent
+
+        2- Boolean
+        ----------
+            - true
+            - false
+            -1 bit
+
+        3- Character
+            - char
+            - 2 byte
+            Note:
+            -----
+                - In java character size is 2 byte, and in this use convention:  "UNICODE SYSTEM" 
+        Note:
+        ------
+            -here we have 8 types in premitive Datatype in world of Java
+
+
+    Non-Premitive Datatypes
+    ------------------------
+        - Object [OOPs]
+        
+        
