@@ -1,0 +1,37 @@
+Conditionals:
+    1-ifElse_Condition:
+        1- if/else  - Normal
+        2- if-else-if-else - Nested Conditionals 
+        3- if-else - Multi Conditionals (reconmended)
+    2-Switch Case:
+        1- switch( condition ) {
+            case: 1
+                execution code if CASE IS TRUE;
+                break;  //<- if condition is true then break code is from here
+                                if you can't use BREAK then execute all code which is exist in bellow of truthy condition.
+            case: 2
+                 execution code if CASE IS TRUE;
+                 break;
+            default:
+                execution code if all condition is false;
+                break;
+        }
+
+        NOTE: Possible type accepted:
+            - integers {int, shor, byte, long}
+            - string
+            - wrapper classes
+            - enums
+
+Loops: 
+    1- for-Loop
+        Q- print all the even nums b/w 0-10
+        NOTE: 1-    continue-> 
+                        - Next line are skipped
+                        - go to the next iteration
+              2-    break ->
+                        - terminate the toop
+
+    2- Nested Loop: 
+            - loop inside another loop
+    2- while-loop
